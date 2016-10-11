@@ -1,0 +1,101 @@
+exports[`Welcome-screen renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#F5FCFF",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "rgba(32,32,32,1)",
+          "fontSize": 25,
+          "margin": 10,
+          "textAlign": "center",
+        },
+        undefined,
+      ]
+    }>
+    Hello, world!
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "rgba(32,32,32,1)",
+        },
+        Object {
+          "color": "rgba(32,32,32,1)",
+          "marginBottom": 10,
+          "textAlign": "center",
+        },
+      ]
+    }>
+    To get started, edit 
+    
+    
+     app/screens/Welcome.js 
+    
+    
+    
+    
+    Press Cmd+R to reload, 
+    
+    
+     Cmd+D or shake for dev menu
+  </Text>
+  <View
+    accessibilityComponentType={undefined}
+    accessibilityLabel={undefined}
+    accessibilityTraits={undefined}
+    accessible={true}
+    hitSlop={undefined}
+    onLayout={undefined}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "lightgray",
+        "height": 30,
+        "justifyContent": "center",
+        "margin": 3,
+        "opacity": 1,
+        "padding": 10,
+        "width": 100,
+      }
+    }
+    testID={undefined}>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "rgba(32,32,32,1)",
+          },
+          Object {
+            "color": "rgba(32,32,32,1)",
+          },
+        ]
+      }>
+      Counter
+    </Text>
+  </View>
+</View>
+`;
